@@ -1,13 +1,6 @@
-import android.databinding.tool.writer.ViewBinding
-
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
-}
-android{
-    viewBinding{
-        var enabled = true
-    }
 }
 
 android {
